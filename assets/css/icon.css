@@ -1,0 +1,22 @@
+.icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.lg{
+  width: 44px;
+  height: 44px;
+}
+.shorc{
+  background-image: url(../icon/shorc.svg);
+}
+.X{
+  background-image: url(../icon/X.svg);
+}
