@@ -122,8 +122,20 @@
 input {
   width: 34px;
   height: 34px;
+ 
+}
+input[type="radio"]:checked {
+  border: 5px solid #232044;
+  background-color: #bcbacf;
+}
+input[type="radio"] {
+  background-color: #232044;
+  appearance: none;
+  border-radius: 34px;
   accent-color: #bcbacf;
-  background: #322e59;
+}
+input[type="checkbox"] {
+  accent-color: #bcbacf;
 }
 
 .custom-option {
